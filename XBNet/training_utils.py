@@ -58,7 +58,7 @@ def training(model,trainDataload,testDataload,criterion,optimizer,epochs = 100,s
                     pass
             outputs = model(inp.float(),train = False)
             predicted = outputs
-            print(predicted)
+            #print(predicted)
             total += out.float().size(0)
             if model.name == "Regression":
                 pass
